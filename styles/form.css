@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+    color: snow;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+.form-item {
+    margin-bottom: 10px;
+}
+
+#zip-input {
+    width: 30%;
+}
+div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+div input {
+    width: auto;
+}
+input:valid {
+    outline: greenyellow 2px solid;
+}
+input:invalid {
+    outline: solid  #ff0022 2px;
+}
+.button {
+    background-color: blueviolet;
+    border: none;
+    color: snow;
+    height:  30px;
+    border-radius: 15px;
+}
+.button:hover {
+    cursor: pointer;
+}
+.button:valid {
+    outline: none;
+}

@@ -9,6 +9,22 @@
     <title>🗄️TOP FORM</title>
 </head>
 <body>
-    
+    <main>
+        <form id="main-form">
+            <div class="form-item">
+                <label for="zip-input">ZIP</label>
+                <input name="zip-input" id="zip-input" type="number" maxlength="5" placeholder="12345" required>
+                <label for="country-input">COUNTRY</label>
+                <input name="country-input" required>
+            </div>
+            <label for="email-input">EMAIL</label>
+            <input class="form-item" name="email-input" type="email" required>
+            <label for="pswd-input">PASSWORD</label>
+            <input class="form-item" name="pswd-input" type="password" required>
+            <label for="pswd-conf-input">PASSWORD CONFIRM</label>
+            <input class="form-item" name="pswd-conf-input" type="password" required>
+            <input class="button" value="Submit" type="submit">
+        </form>
+    </main>
 </body>
 </html>
